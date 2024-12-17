@@ -1,0 +1,46 @@
+.form,
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form input[type="text"],
+.form select {
+  padding: 1rem;
+  background-color: transparent;
+  border: 0.3rem solid var(--white);
+  color: var(--white);
+  font-size: 1.8rem;
+  font-weight: 400;
+  border-radius: 1rem;
+}
+
+select option {
+  color: #000000;
+}
+
+.field ::placeholder {
+  color: var(--white);
+}
+
+.field label {
+  font-size: 1.8rem;
+}
+
+.submit {
+  background-color: var(--primary);
+  border: none;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 1rem 0.5rem;
+  transition: background-color 0.3s;
+  border-radius: 1rem;
+}
+
+.submit:hover {
+  background-color: var(--primary-darken);
+}

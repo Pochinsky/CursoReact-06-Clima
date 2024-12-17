@@ -1,6 +1,7 @@
 :root {
   --white: #ffffff;
   --primary: #f59e0b;
+  --primary-darken: #c07d08;
 }
 
 html {
@@ -10,5 +11,5 @@ html {
   background-repeat: no-repeat;
   height: 100vh;
   color: var(--white);
-  font-size: 16px;
+  font-size: 12px;
 }

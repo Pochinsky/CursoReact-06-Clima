@@ -4,14 +4,14 @@
   margin-top: 5rem;
 }
 
-.containter {
+.container {
   width: 95%;
   max-width: 100rem;
   margin: 0 auto;
 }
 
 @media (min-width: 768px) {
-  .containter {
+  .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
